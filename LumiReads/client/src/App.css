@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+  .app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-section {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.search-section,
+.upload-section {
+  flex: 1;
+}
+
+.search-section input,
+.upload-section input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.book-card {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.book-card img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.no-image {
+  width: 100px;
+  height: 150px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 12px;
+}
+
+.summary-box {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #0077cc;
+  border-radius: 6px;
+  background: #f5faff;
+}
+
+}
